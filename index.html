@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Conversion</title>
+    <link rel="shortcut icon" href="img/icono.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="animaciones.css">
+</head>
+<body>
+    <header>
+        <img src="img/m1.png" width="50%">
+        <h1>Coordinate Conversion</h1>
+        <p>Calcular coordenadas del overworld al nether y viseversa</p>
+    </header>
+
+    
+    <main>
+        <section class="titulo">
+            <h2>Convertir</h2>
+        </section>
+
+        <section class="coor">
+            <h2>Ingresar Coordenadas</h2>
+            <div class="inputs">
+                <input class="coordenadas add-coor" type="number" id="nether_x" placeholder="X">
+                <input class="coordenadas add-coor" type="text" placeholder="~" readonly="false" value="~">
+                <input class="coordenadas add-coor" type="number" placeholder="Z">
+            </div>
+            <div class="bobontes">
+                <button class="boton over-nether" > 
+                    <img class="img-boton over" src="img/grass.png">
+                    <img class="flecha" src="img/flecha.png">
+                    <img class="img-boton nether " src="img/netherrack.png">
+                </button>
+                
+                <button class="boton nethe-over" >
+                    <img class="img-boton nether " src="img/netherrack.png">
+                    <img class="flecha" src="img/flecha.png">
+                    <img class="img-boton over" src="img/grass.png">
+                </button>
+                
+            </div>
+            <input class="coordenadas" type="text" readonly value="~ ~ ~">
+        </section>
+
+
+
+        
+    </main>
+
+</body>
+</html>

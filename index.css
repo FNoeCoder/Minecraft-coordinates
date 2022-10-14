@@ -1,0 +1,109 @@
+
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+
+
+
+* {
+    margin: 0px auto;
+    color: rgb(236, 236, 236);
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+html{
+    background: url(img/fondo/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    background-color: rgba(32, 32, 32,0.2);
+    align-items: center;
+}
+
+
+
+
+
+main{
+    width: 88%;
+
+    background-color: rgba(32, 32, 32,0.7);
+
+    padding: 2% 3% 10% 3%;
+    margin: 7% auto;
+
+    border-radius: 10px;
+    border: 2px rgb(191, 191, 191) solid;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.titulo h2{
+    font-size: 70px;
+    padding: 10px 0px;
+}
+.coor{
+    /* background-color: rgb(255, 255, 255); */
+    width: 90%;
+    font-size: 34px;
+    text-align: center;
+    padding: 23px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+}
+
+input.coordenadas{
+    color: aliceblue;
+    background-color: rgba(92, 35, 78, 0.2);
+    text-align: center;
+    font-size: 15px; 
+
+    border: 1px white solid;
+    width: 20%;
+    height: 30px;
+
+
+    margin: 35px auto; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 24px;
+}
+
+
+
+.over{
+    width: 50px;
+    height: 50px;
+
+
+}
+.boton{
+
+    border: rgba(255, 255, 255, 0.475) 1px solid;
+    border-radius: 13px;
+    margin: 15px;
+    background-color: rgba(46, 46, 46, 0.571);
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+
+}
+
+.boton img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+
+

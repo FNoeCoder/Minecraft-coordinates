@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(32, 32, 32,0.8);
+    
+    width: 100%;
+
+    color: white;
+}
+
+header *{
+    /* margin: 30px auto; */
+    padding: 0px 20px;
+}
+
+header h1{
+    color: rgba(240, 248, 255, 0.189);
+    position: fixed;
+    top: -70px;
+}
+
+header p{
+    font-size: 30px;
+    padding-bottom: 35px;
+}
